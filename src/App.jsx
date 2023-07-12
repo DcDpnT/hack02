@@ -9,8 +9,8 @@ function App() {
     <>
      <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/api/symptomes" element={<Medecins />} />
-      <Route path="/api/symptomes/:id" element={<MedecinDetails />} />
+      <Route path="/api/medecins" element={<Medecins />} />
+      <Route path="/api/medecins/:id" element={<MedecinDetails />} />
      </Routes>
     </>
   )
