@@ -1,0 +1,108 @@
+.Forum-main {
+    width: 90vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid black;
+    position: sticky;
+    top: 10vh;
+
+    .Forum-topics {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1em;
+
+        div, button {
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 0;
+            padding: 8px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            
+        }
+
+        button:focus {
+            background-color: rgb(249, 223, 174);;
+        }
+
+        div {
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: rgb(249, 242, 186);
+        }
+
+        .divNewTopic {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            height: 70px;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+
+            input {
+                width: 68%;
+                height: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                font-size: 1rem;
+            }
+
+            button {
+                width: 30%;
+                height: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                background-color: rgb(249, 242, 186);
+                border: 5px outset rgb(163, 158, 120);
+            }
+
+            button:hover {
+                background-color: rgb(249, 223, 174);
+                border: 5px outset rgb(124, 112, 90);
+            }
+
+            button:active {
+                border: 5px inset rgb(124, 112, 90);
+            }
+        }
+    }
+
+    .Forum-conversation {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        div {
+            width: 100%;
+            border: 1px solid black;
+            padding: 16px;
+            box-sizing: border-box;
+
+            p {
+                text-align: left;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+}
