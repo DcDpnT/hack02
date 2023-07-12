@@ -17,7 +17,7 @@ const handleHourClick = (hour) => {
   };
 
 const generateHours = () => {
-    const hours = [{leverSoleil}, {pain}, {poulet}, {soleil},{soleilCouchant}]; 
+    const hours = [leverSoleil, pain, poulet, soleil,soleilCouchant]; 
 
     return hours.map((hour, index) => (
       <img
