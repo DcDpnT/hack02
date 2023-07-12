@@ -1,6 +1,7 @@
 // import { useState, useEffect } from "react";
 // import axios from "axios";
-import CardMedecin from "../components/CardMedecin";
+
+import FicheMedecin from "../components/FicheMedecin";
 import "./Medecins.scss";
 
 function Medecins () {
@@ -15,7 +16,7 @@ function Medecins () {
 
 return (
     <>
-    <CardMedecin />
+    <FicheMedecin />
     </>
     );
 }
