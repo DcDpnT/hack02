@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.contenairHeader1 {
+  position: relative;
+  width: 1379px;
+  height: 478.391px;
+  background-image: url(/src/assets/BackGround.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  overflow: hidden;
+}
+
+.contentWrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.Med {
+  width: auto;
+  height: 100%;
+}
+
+.titleHeader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'MedievalSharp', cursive;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size : 10em;
+  margin: 0;
+  -webkit-text-stroke: 0.5px black; /* Ajoute un contour noir */
+  text-stroke: 0.5px black; /* Ajoute un contour noir */
+}
+
+.emptySpace {
+  flex-grow: 1;
+}
+
+.brush {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
