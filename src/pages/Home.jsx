@@ -1,5 +1,5 @@
 import "./Home.scss";
-import Header1 from "../Header1";
+import Header1 from "../components/Header1";
 
 
 function Home() {

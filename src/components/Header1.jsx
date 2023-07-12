@@ -1,8 +1,8 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import brush from "./assets/BrushBottom.png";
-import Med5Detour from "./assets/Medecins/Med5detourbis.png";
-import "./Header1.scss";
+import brush from "../assets/BrushBottom.png";
+import Med5Detour from "../assets/Medecins/Med5Detour.png";
+import "../components/Header1.scss";
 
 gsap.registerPlugin(ScrollTrigger);
 
