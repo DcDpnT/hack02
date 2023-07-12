@@ -2,7 +2,8 @@ const express = require("express");
 
 const app = express();
 const cors = require("cors");
-app.use(cors("*"));
+app.use(cors("*")); // cette ligne permet de communiquer avec le front
+app.use(express.json());  // Cette ligne permet de lire les données JSON envoyées dans le corps de la requête
 
 const port = 4242; 
 
@@ -15,13 +16,12 @@ const server = require("./server")
 app.get("/", welcome);
 app.get("/api/maladies", server.getMaladies);
 app.get("/api/medecins", server.getMedecins);
+app.get("/api/forum", server.getForum);
 app.get("/api/maladies/:id", server.getMaladiesById);
 app.get("/api/medecins/:id", server.getMedecinById);
-// app.get("/api/users", serverSQL.getUsers);
-// app.get("/api/all", serverSQL.getDreams);
-// app.get("/api/all/:id", serverSQL.getDreamsByID);
-// app.get("/api/users/:id", serverSQL.getUsersByID);
-// app.get("/api/users/:id/favoris", serverSQL.getUserFavoris);
+app.get("/api/forum/:id", server.getForumById);
+app.post("api/forum", server.postNewTopic);
+app.post("/api/forum/:id/conversation", server.postNewCommentIntoTopic);
 
 
 app.listen(port, (err) => {
