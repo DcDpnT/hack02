@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import { useParams} from "react";
+// import { useState, useEffect } from "react";
+// import { useParams} from "react";
 // import axios from "axios";
-import "./MedecinDetails.css";
+import "./MedecinDetails.scss";
 
 function MedecinDetails() {
     // const { id } = useParams();
@@ -13,7 +13,7 @@ function MedecinDetails() {
     // });})
 
     return (
-        <p>Page MedecinDetails</p>
+        <p></p>
     )
 }
 export default MedecinDetails
