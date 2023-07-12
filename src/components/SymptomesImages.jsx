@@ -2,7 +2,8 @@
 function SymptomesImages() {
 
     return (
-
+        <>
+        </>
     )
 }
 

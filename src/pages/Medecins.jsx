@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 // import axios from "axios";
-import "./Medecins.css";
+import "./Medecins.scss";
 
 function Medecins () {
     // const [dataMedecin, setDataMedecin] = useState([]);

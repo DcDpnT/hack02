@@ -38,7 +38,13 @@ const getMedecinById = (req,res) => {
       }
 }
 
-// app.get("/api/all", getAll);
+module.exports={
+    getMaladies,
+    getMaladiesById,
+    getMedecinById,
+    getMedecins}
+
+    // app.get("/api/all", getAll);
 
 // app.get("/api/all/:id", (req, res) => {
 //   const element = all.find((element) => element.id == req.params.id);
@@ -137,9 +143,3 @@ const getMedecinById = (req,res) => {
 //     res.status(404).json({ message: `Aucun user avec le pseudo ${userPseudo}` });
 //   }
 // })
-
-module.exports={
-    getMaladies,
-    getMaladiesById,
-    getMedecinById,
-    getMedecins}

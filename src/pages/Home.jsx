@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import SymptomesImages from "./SymptomesImages"
-import "./Home.css";
+
+import "./Home.scss";
 
 function Home() {
     const [home, setHome] = useState([]);
