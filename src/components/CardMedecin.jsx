@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 import axios from "axios";
+import CardCalendar from "./CardCalendar.jsx"
 import "./CardMedecin.scss"
 
   function CardMedecin() {
@@ -22,7 +23,8 @@ import "./CardMedecin.scss"
 				// ) 
 				.map((medecin)=> (	
 					<p className="fondgris"  key={medecin.id}>
-					{medecin.nom}<br/>{medecin.lieu} <Link to={`/medecin/${medecin.id}`}><button type="button"> prendre rendez-vous</ button> </Link></p>
+					{medecin.nom}<br/>{medecin.lieu} <Link to={`/medecin/${medecin.id}`}><button type="button"> prendre rendez-vous</ button> </Link>
+					<CardCalendar /></p>
 						
 				))}
 			</div>	
