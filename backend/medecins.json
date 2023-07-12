@@ -3,7 +3,8 @@
         "id":1,
         "nom": "Jeannot La Pustule",
         "maladies": ["Peste noire", "Syphilis", "Rougeole", "Variole", "Ergotisme", "Écrouelles", "Goutte"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "image":"https://cdn.discordapp.com/attachments/1081226827453956207/1128673652573999226/perudos_flat_vector_illustration_of_a_medieval_man_has_muscle_p_83139bb7-e74f-4988-9b3e-e8d2a999b019.png"
     },
     {
         "id":2,
