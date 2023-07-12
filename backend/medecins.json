@@ -1,0 +1,195 @@
+[
+    {
+        "id":1,
+        "nom": "Jeannot La Pustule",
+        "maladies": ["Peste noire", "Syphilis", "Rougeole", "Variole", "Ergotisme", "Écrouelles", "Goutte"],
+        "lieu": "Paris"
+    },
+    {
+        "id":2,
+        "nom": "Guillaume Le Sanglant",
+        "maladies": ["Lèpre", "Dysenterie", "Grippe", "Carie", "Suette anglaise", "Blennorragie", "Goutte"],
+        "lieu": "Paris"
+    },
+    {
+        "id":3,
+        "nom": "Hugues Le Purulent",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Paris"
+    },
+    {
+        "id":4,
+        "nom": "Thibault Le Fiévreux",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Paris"
+    },
+    {
+        "id":5,
+        "nom": "Robert Le Gangreneux",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Paris"
+    },
+    {
+        "id":6,
+        "nom": "Pierre Le Suppurant",
+        "maladies": ["Rougeole", "Carie", "Variole", "Suette anglaise", "Ergotisme", "Écrouelles", "Goutte"],
+        "lieu": "Paris"
+    },
+    {
+        "id":7,
+        "nom": "Jacques Le Contagieux",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Paris"
+    },
+    {
+        "id":8,
+        "nom": "Simon Le Pestiféré",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Paris"
+    },
+    {
+        "id":9,
+        "nom": "Louis Le Chancreux",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":10,
+        "nom": "Charles Le Vérolé",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":11,
+        "nom": "Guillaume Le Touffu",
+        "maladies": ["Lèpre", "Dysenterie", "Grippe", "Carie", "Suette anglaise", "Blennorragie", "Goutte"],
+        "lieu": "Lille"
+    },
+    {
+        "id":12,
+        "nom": "Hugues Le Puant",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":13,
+        "nom": "Robert Le Boiteux",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":14,
+        "nom": "Pierre Le Borgne",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Lille"
+    },
+    {
+        "id":15,
+        "nom": "Gaspard Le Malingre",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":16,
+        "nom": "Thibault Le Chétif",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Lille"
+    },
+    {
+        "id":17,
+        "nom": "Raoul Le Grincheux",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":18,
+        "nom": "Bertrand Le Malade",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":19,
+        "nom": "Gautier Le Contrefait",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":20,
+        "nom": "Amaury Le Cholérique",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":21,
+        "nom": "Baudouin Le Maladif",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":22,
+        "nom": "Enguerrand Le Bossu",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":23,
+        "nom": "Eudes Le Fâcheux",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":24,
+        "nom": "Girard Le Malheureux",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Marseille"
+    },
+    {
+        "id":25,
+        "nom": "Hardouin Le Difforme",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":26,
+        "nom": "Herbert Le Grognon",
+        "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
+        "lieu": "Brest"
+    },
+    {
+        "id":27,
+        "nom": "Robert Le Pestiféré",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":28,
+        "nom": "Pierre Le Contaminé",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":29,
+        "nom": "Jacques Le Gangreneux",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":30,
+        "nom": "Henri Le Chancreux",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":31,
+        "nom": "Louis Le Vérolé",
+        "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
+        "lieu": "Brest"
+    },
+    {
+        "id":32,
+        "nom": "Charles Le Suppurant",
+        "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
+        "lieu": "Brest"
+    }
+    
+]
