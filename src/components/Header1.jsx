@@ -1,10 +1,7 @@
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import brush from "../assets/BrushBottom.png";
 import Med5Detour from "../assets/Medecins/Med5Detour.png";
 import "../components/Header1.scss";
 
-gsap.registerPlugin(ScrollTrigger);
 
 function Header1() {
   return (
