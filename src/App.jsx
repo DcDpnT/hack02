@@ -7,11 +7,12 @@ import './App.css'
 function App() {
   return (
     <>
-     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/api/symptomes" element={<Medecins />} />
-      <Route path="/api/symptomes/:id" element={<MedecinDetails />} />
-     </Routes>
+      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/api/symptomes" element={<Medecins />} />
+          <Route path="/api/symptomes/:id" element={<MedecinDetails />} />
+        </Routes>
     </>
   )
 }
