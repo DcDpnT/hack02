@@ -1,0 +1,32 @@
+.calendar {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  
+    .header {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .days-container {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+      margin-top: 10px;
+  
+      .day {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+  
+        &.selected {
+          background-color: #0cc3f6;
+          font-weight: bold;
+        }
+      }
+    }
+  }
