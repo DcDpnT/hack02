@@ -1,0 +1,28 @@
+.wrap-container{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+.fondgris{
+   background-color: rgb(168, 156, 156);
+   border-radius: 20px;
+   width:auto;
+   height: 45vh;
+   list-style-type:none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: larger;
+
+   button {
+      border: none;
+      background-color: rgb(38, 162, 189);
+      color: white;
+      border-radius: 20px;
+      height:30px;
+   }
+}
+
+
