@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams} from "react";
 // import axios from "axios";
-import "./MedecinDetails.css";
+import "./MedecinDetails.scss";
 
 function MedecinDetails() {
     // const { id } = useParams();
