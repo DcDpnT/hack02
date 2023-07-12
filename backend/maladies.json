@@ -1,0 +1,80 @@
+[
+    {
+        "id":1,
+        "nom": "Peste noire",
+        "symptomes": ["fièvre", "frissons", "faiblesse musculaire", "ganglions enflés", "maux de tête", "douleurs musculaires"],
+        "image":"https://s.france24.com/media/display/cef1da44-0fcb-11e9-baa3-005056a964fe/w:980/p:16x9/3ca4f428a7e76ad741ba8e920a615549.webp"
+    },
+    {
+        "id":2,
+        "nom": "Lèpre",
+        "symptomes": ["lésions cutanées", "engourdissement", "faiblesse musculaire", "ulcères"],
+        "image":"https://sael28.fr/wp-content/uploads/2023/02/lepreux_jesus.webp"
+    },
+    {
+        "id":3,
+        "nom": "Syphilis",
+        "symptomes": ["ulcères génitaux", "éruptions cutanées", "fièvre", "ganglions enflés", "maux de tête", "perte de poids"],
+        "image":"https://www.bing.com/images/create/illustration-symptomes-syphilis-au-moyen-age/64ae851ae8324f83948347b1e02e8963?id=zs0p%2fo0QFqVBBjvOFG0kng%3d%3d&view=detailv2&idpp=genimg&edgehub=1&lightschemeovr=1&FORM=GCRIDP"
+    },
+    {
+        "id":4,
+        "nom": "Dysenterie",
+        "symptomes": ["diarrhée sanglante", "fièvre", "douleurs abdominales"],
+        "image":""
+    },
+    {
+        "id":5,
+        "nom": "Grippe",
+        "symptomes": ["fièvre élevée", "frissons", "fatigue intense",  "courbatures",  "maux de tête",  "toux sèche"],
+        "image":""
+    },
+    {
+        "id":6,
+        "nom": "Rougeole",
+        "symptomes": ["écoulement du nez",  "conjonctivite",  "toux",  "fatigue intense",  "forte fièvre"],
+        "image":""
+    },
+    {
+        "id":7,
+        "nom": "Carie",
+        "symptomes": ["mal aux dents",  "décoloration dentaire"],
+        "image":""
+    },
+    { 
+        "id":8,
+        "nom": "Suette anglaise", 
+        "symptomes": ["frissons", "vertiges", "maux de tête", "douleurs aux épaules", "douleurs aux membres"],
+        "image":""
+    },
+    {
+        "id":9,
+        "nom": "Variole", 
+        "symptomes": ["fièvre", "maux de tête", "courbatures", "nausées", "vomissements"],
+        "image":""
+    }, 
+    { 
+        "id":10,
+        "nom": "Goutte", 
+        "symptomes": ["douleur soudaine", "articulation chaude", "articulation rouge", "articulation enflée"],
+        "image":""
+    },
+    { 
+        "id":11,
+        "nom": "Ergotisme", 
+        "symptomes": ["fourmillements", "douleurs", "peau pâle et froide aux pieds et aux mains"],
+        "image":""
+    }, 
+    { 
+        "id":12,
+        "nom": "Écrouelles", 
+        "symptomes": ["ganglions anormaux au niveau du cou"],
+        "image":""
+    }, 
+    { 
+        "id":13,
+        "nom": "Blennorragie", 
+        "symptomes": ["brûlures et/ou écoulement jaune par la verge, le vagin ou l'anus"],
+        "image":"" 
+    }
+]
