@@ -1,12 +1,12 @@
 import "./Home.scss";
+import Header1 from "../components/Header1";
+
 
 function Home() {
 
     return (
-        <>
-        <p>Page Home</p>
-        </>
+        <Header1/>
     )
     }
     
-    export default Home
+export default Home
