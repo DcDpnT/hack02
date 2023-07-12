@@ -1,32 +1,32 @@
 [
     {
         "id":1,
-        "topic":"La blennorragie c'est dégeux !",
+        "topic":"La blennorragie c'est dégueux !",
         "conversation":[
             {
                 "id":1,
                 "user":"Jean Lassal",
-                "test":"Arghh Morbleu, qui a déjà eu une blennorragie ? J'ai le penis qui suinte c'est horrible"
+                "text":"Arghh Morbleu, qui a déjà eu une blennorragie ? J'ai le penis qui suinte c'est horrible"
             },
             {
                 "id":2,
                 "user":"Thibaut Plusketoi",
-                "test":"Moi, une fois ! Ca a duré 3 semaines, j'en pouvais plus !"
+                "text":"Moi, une fois ! Ca a duré 3 semaines, j'en pouvais plus !"
             },
             {
                 "id":3,
                 "user": "Pierre Le Contaminé",
-                "test": "J'ai eu ça aussi, c'était vraiment pas agréable. J'ai dû aller voir un médecin pour me faire soigner."
+                "text": "J'ai eu ça aussi, c'était vraiment pas agréable. J'ai dû aller voir un médecin pour me faire soigner."
             },
             {
                 "id":4,
                 "user": "Thibaut Plusketoi",
-                "test": "Le médecin m'a donné des médicaments et ça a fini par passer. Mais c'était vraiment pas une partie de plaisir."
+                "text": "Le médecin m'a donné des médicaments et ça a fini par passer. Mais c'était vraiment pas une partie de plaisir."
             },
             {
                 "id":5,
                 "user": "Jean Lassal",
-                "test": "Je vais aller voir un médecin alors. Merci pour vos conseils les gars."
+                "text": "Je vais aller voir un médecin alors. Merci pour vos conseils les gars."
             }
         ]
     },
@@ -37,22 +37,22 @@
             {
                 "id":1,
                 "user":"Victor Houtchi",
-                "test":"Au secours les gars je commence à avoir des lésions noires et des pustules. Est ce que quelqu'un a une idée de ce que ça peut être"
+                "text":"Au secours les gars je commence à avoir des lésions noires et des pustules. Est ce que quelqu'un a une idée de ce que ça peut être"
             },
             {
                 "id":2,
                 "user":"Hugo Toutseul",
-                "test":"La peste noire mon gars... t'es mal !"
+                "text":"La peste noire mon gars... t'es mal !"
             },
             {
                 "id":3,
                 "user": "Pierre Le Juste",
-                "test": "Tu habites où qu'on ne passe pas par chez toi ?"
+                "text": "Tu habites où qu'on ne passe pas par chez toi ?"
             },
             {
                 "id":4,
                 "user": "Victor Houtchi",
-                "test": "Mamaaaaaaannn !!!!"
+                "text": "Mamaaaaaaannn !!!!"
             }
             
         ]
@@ -64,22 +64,22 @@
             {
                 "id":1,
                 "user":"André Rioul",
-                "test":"C'est quoi un lépreux dans une piscine ? ... Un cachet d'aspirine !"
+                "text":"C'est quoi un lépreux dans une piscine ? ... Un cachet d'aspirine !"
             },
             {
                 "id":2,
                 "user":"Tristan Le Niçois",
-                "test":"Mouah ha ha ha ha !"
+                "text":"Mouah ha ha ha ha !"
             },
             {
                 "id":3,
                 "user": "Nadine Mauranicette",
-                "test": "Dégueux !"
+                "text": "Dégueux !"
             },
             {
                 "id":4,
                 "user": "Françoise Acmann",
-                "test": "Vous êtes vraiment trop nazes, vous êtes sur un forum ou de pauvre gens viennent pour partager leurs maux et vous, vous en plaisantez. Vous devriez avoir honte !"
+                "text": "Vous êtes vraiment trop nazes, vous êtes sur un forum ou de pauvre gens viennent pour partager leurs maux et vous, vous en plaisantez. Vous devriez avoir honte !"
             }
         ]
     },
@@ -90,27 +90,27 @@
             {
                 "id":1,
                 "user":"Hubert le Pochtron",
-                "test":"Tous les jours à boire des p'tites gouttes, voilà que je l'ai attrappé... la goute... sniff... Quelqu'un saurait comment soigner ça ?"
+                "text":"Tous les jours à boire des p'tites gouttes, voilà que je l'ai attrappé... la goute... sniff... Quelqu'un saurait comment soigner ça ?"
             },
             {
                 "id":2,
                 "user":"Jacqueline la Sobre",
-                "test":"Commence par arrêter de boire !"
+                "text":"Commence par arrêter de boire !"
             },
             {
                 "id":3,
                 "user": "Hubert le Pochtron",
-                "test": "Tu rigoles ? Il n'y a que ça comme solution ?"
+                "text": "Tu rigoles ? Il n'y a que ça comme solution ?"
             },
             {
                 "id":4,
                 "user": "Docteur LeLouche",
-                "test": "Non, vous pouvez également venir chez moi, je me ferai un plaisir de vous couper la jambe... sans anesthésie bien sûr, ça n'existera que dans 547 ans"
+                "text": "Non, vous pouvez également venir chez moi, je me ferai un plaisir de vous couper la jambe... sans anesthésie bien sûr, ça n'existera que dans 547 ans"
             },
             {
                 "id":5,
                 "user": "Hubert le Pochtron",
-                "test": "..."
+                "text": "..."
             }
         ]
     }

@@ -1,10 +1,11 @@
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 
 
-// const app = express();
+const app = express();
 
-// app.use(cors("*"));
+app.use(cors("*"));
+app.use(express.json()); 
 
 
 const maladies = require("./maladies.json");
@@ -39,13 +40,9 @@ const getMedecinById = (req,res) => {
       }
 }
 
-module.exports={
-    getMaladies,
-    getMaladiesById,
-    getMedecinById,
-    getMedecins}
-
-// app.get("/api/all", getAll);
+const getForum = (req, res) => {
+    res.status(200).json(forum);
+  };
 
   const getForumById = (req,res) => {
     const forumTopic = forum.find((element) => element.id == req.params.id);
@@ -62,7 +59,7 @@ module.exports={
 
 // //pour pouvoir ajouter de nouveaux topics aux forums
 const postNewTopic = (req, res) => {
-  const newTopic = req.body;
+  const newTopic = req.body.topic;
   const newId = parseInt(forum.length,10) + 1;
   const newElement = {
     "id":newId,
@@ -77,7 +74,7 @@ const postNewTopic = (req, res) => {
 const postNewCommentIntoTopic = (req, res) => {
     const newComment = req.body;
     const topicID = req.params.id;
-    const topic = forum.find(element => element.id === topicID);
+    const topic = forum.find(element => element.id == topicID);
 
     if(topic) {
         topic.conversation.push(newComment);
@@ -92,4 +89,9 @@ module.exports={
     getMaladies,
     getMaladiesById,
     getMedecinById,
-    getMedecins}
+    getMedecins,
+    getForum,
+    getForumById,
+    postNewTopic,
+    postNewCommentIntoTopic
+}

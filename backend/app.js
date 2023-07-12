@@ -20,7 +20,7 @@ app.get("/api/forum", server.getForum);
 app.get("/api/maladies/:id", server.getMaladiesById);
 app.get("/api/medecins/:id", server.getMedecinById);
 app.get("/api/forum/:id", server.getForumById);
-app.post("api/forum", server.postNewTopic);
+app.post("/api/forum", server.postNewTopic);
 app.post("/api/forum/:id/conversation", server.postNewCommentIntoTopic);
 
 
