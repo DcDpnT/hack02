@@ -1,10 +1,11 @@
 const express = require("express");
-// const cors = require("cors");
+const cors = require("cors");
 
 
-// const app = express();
+const app = express();
 
-// app.use(cors("*"));
+app.use(cors("*"));
+app.use(express.json()); 
 
 
 const maladies = require("./maladies.json");
@@ -58,7 +59,7 @@ const getForum = (req, res) => {
 
 // //pour pouvoir ajouter de nouveaux topics aux forums
 const postNewTopic = (req, res) => {
-  const newTopic = req.body;
+  const newTopic = req.body.topic;
   const newId = parseInt(forum.length,10) + 1;
   const newElement = {
     "id":newId,
@@ -73,7 +74,7 @@ const postNewTopic = (req, res) => {
 const postNewCommentIntoTopic = (req, res) => {
     const newComment = req.body;
     const topicID = req.params.id;
-    const topic = forum.find(element => element.id === topicID);
+    const topic = forum.find(element => element.id == topicID);
 
     if(topic) {
         topic.conversation.push(newComment);
