@@ -1,11 +1,11 @@
 import "./Home.scss";
-import Header from "../Header1";
+import Header1 from "../Header1";
 
 
 function Home() {
 
     return (
-        <p>Page Home</p>
+        <Header1/>
     )
     }
     
