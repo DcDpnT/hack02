@@ -1,14 +1,11 @@
-import "./Home.css";
+import "./Home.scss";
 import Header from "../Header1";
 
 
 function Home() {
 
     return (
-        <>
-        <Header/>
-        {/* <p>Page Home</p> */}
-        </>
+        <p>Page Home</p>
     )
     }
     
