@@ -1,0 +1,22 @@
+.boxCalendar{
+    max-width: 30vw;
+    border: solid 2px black;
+    display : flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+
+    .boxHour{
+        display:flex;
+        flex-wrap: wrap;
+        img{
+            width:70px;
+            height: 70px;
+            object-fit: contain;
+        }
+
+        .selected{
+            background-color: blue;
+        }
+    }
+}
