@@ -55,14 +55,13 @@ function Home() {
                         </div>
                     ))}
                 </div>
-                   
-                    <button onClick={handleSelectionClick}>Sélectionner</button>
 
-                    {/* Display the names of the filtered doctors */}
-                    {filteredMedecins.map((medecin, index) => (
-                        <p key={index}>{medecin.nom}</p>
-                    ))}
-                
+                <button onClick={handleSelectionClick}>Sélectionner</button>
+
+                {/* Display the names of the filtered doctors */}
+                {filteredMedecins.map((medecin, index) => (
+                    <p key={index}>{medecin.nom}</p>
+                ))}
             </div>
         </>
     );
