@@ -1,6 +1,7 @@
 import "./Forum.scss"
 import { useEffect, useState } from "react";
 import axios from 'axios'
+import { Navbar} from "/Users/damien/WCSchool/hack02/src/components/Navbar.jsx"
 import Header1 from "../components/Header1"
 
 
@@ -108,6 +109,7 @@ function Forum () {
 
     return (
     <>
+        < Navbar />
         <Header1/>
         <main className="Forum-main">
             <section className="Forum-topics">

@@ -1,6 +1,6 @@
 // import { useState, useEffect } from "react";
 // import axios from "axios";
-
+import { Navbar} from "./components/Navbar"
 import FicheMedecin from "../components/FicheMedecin";
 import "./Medecins.scss";
 
@@ -17,6 +17,7 @@ function Medecins () {
 
 return (
     <>
+    < Navbar />
     <FicheMedecin />
     </>
     );

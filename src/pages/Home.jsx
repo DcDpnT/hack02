@@ -1,7 +1,6 @@
 
 import {useState, useEffect,} from "react"
 import { useNavigate } from "react-router-dom";
-
 import TableauHome from "../components/TableauHome";
 import CarteDeFrance from "../assets/CarteDeFrance.png"
 import axios from "axios";
