@@ -22,7 +22,7 @@ const TableauHome = [
     },
     {
       id: 2,
-      symptomes: "diarrhée sanglante",
+      symptomes: "diarrhée",
       imgsrc: Diarrhée,
       selected: false
     },
@@ -40,7 +40,7 @@ const TableauHome = [
     },
     {
     id: 5,
-    symptomes: "éruptions cutanées",
+    symptomes: "fièvre",
     imgsrc: ErruptionCutanée,
     selected: false
     },
@@ -88,7 +88,7 @@ const TableauHome = [
       },
       {
         id: 13,
-        symptomes: "toux sèche",
+        symptomes: "toux",
         imgsrc: Toux,
         selected: false
       },

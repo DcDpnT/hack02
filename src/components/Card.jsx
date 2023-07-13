@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import CardCalendar from "./CardCalendar";
 import "./Card.scss"
 
-function Card ({medecin}) {
+function Card ({medecin, image}) {
     
     return (
 <>		
 	<div className="wrap-container">
 				<div className="Medecin">
                     <div className="photo">
-                        <img src={medecin.image} alt= "medecin" />
+                        <img src={image} alt= "medecin" />
                     </div>
 					<div className="box1">
 					{medecin.nom}<br/>{medecin.lieu}
