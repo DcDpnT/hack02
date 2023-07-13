@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import CardCalendar from "./CardCalendar";
 import "../components/Card.scss"
 
-function Card ({medecin}) {
+function Card ({medecin, image}) {
     
     return (
 	<>		
