@@ -30,7 +30,14 @@ const [dataMaladies, setDataMaladies] = useState([]);
     }, []);
 
     const handleImageClick = (symptome) => {
-        setSelectedSymptomes((oldSymptomes) => [...oldSymptomes, symptome]);
+        const presenceSymptome = selectedSymptomes.includes(symptome);
+        console.log("presenceSymptome",presenceSymptome);
+        if(presenceSymptome){
+            const newSelectedSymptomes = selectedSymptomes.filter(item => item !== symptome);
+            setSelectedSymptomes(newSelectedSymptomes);
+        } else {
+            setSelectedSymptomes((oldSymptomes) => [...oldSymptomes, symptome]);
+        }
         
         setSymptomes((ancienEtat) =>
         ancienEtat.map((item) =>
@@ -60,6 +67,10 @@ const [dataMaladies, setDataMaladies] = useState([]);
             setFilteredMedecins(medecins);
         }
     }
+
+    useEffect(()=> {
+        console.log(selectedSymptomes);
+    },[selectedSymptomes])
 
     return (
         <div className="pageHome">
