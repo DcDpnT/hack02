@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Kablammo&family=MedievalSharp&display=swap%27');
+
+.NavContain {
+    display: flex;
+    width: 100vw;
+    height:0vh;
+    background-color: antiquewhite;
+    img {
+        margin-left: 40px;
+        border-radius: 30px 30px;
+        object-fit: contain;
+        height: 80px;
+        padding-top: 30px;
+        background-color: transparent;
+        position: fixed;
+        cursor: pointer;
+        z-index: +1;
+    }
+}  
+
+.Medecins {
+    list-style: none;
+    position: absolute;
+    left: 85%;
+    bottom: 92%;
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    color: #be5922;
+    cursor: pointer;
+    position: fixed;
+    z-index: +1;
+}
+.Forum {
+    list-style: none;
+    position: absolute;
+    left: 85%;
+    bottom: 87%;
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    color: #be5922;
+    cursor: pointer;
+    position: fixed;
+    z-index: +1;
+}
