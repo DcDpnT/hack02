@@ -3,6 +3,7 @@ import Card from "./Card.jsx";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import TableauImageMedecin from "./TableauImageMedecin";
 
   function FicheMedecin() {
 	const [dataMedecin, setDataMedecin] = useState([]);   
@@ -14,8 +15,8 @@ import { useEffect } from "react";
 
 	return (
 	<div className="content" >
-		{dataMedecin.map((medecin)=> (	
-		<Card key={medecin.id} medecin={medecin}/>			
+		{dataMedecin.map((medecin,index)=> (	
+		<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
 	))}
 
 	</div>
