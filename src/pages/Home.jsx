@@ -1,7 +1,8 @@
 
-import {useState, useEffect} from "react"
+import {useState, useEffect,} from "react"
+import { useNavigate } from "react-router-dom";
+
 import TableauHome from "../components/TableauHome";
-import PointMap from "../assets/PointMap.png"
 import CarteDeFrance from "../assets/CarteDeFrance.png"
 import axios from "axios";
 import "./Home.scss";
@@ -14,6 +15,7 @@ const [dataMaladies, setDataMaladies] = useState([]);
     const [selectedCity, setSelectedCity] = useState("");  // Add this line
     const [possibleMaladies, setPossibleMaladies] = useState([]);
     const [symptomes, setSymptomes] = useState(TableauHome);
+    const navigate = useNavigate()
 
     useEffect(() => {
         axios.get("http://localhost:4242/api/maladies").then((response) => {
@@ -47,11 +49,9 @@ const [dataMaladies, setDataMaladies] = useState([]);
         )
     );
     }
-
     const handleCityClick = (city) => {  // Add this function
         setSelectedCity(city);
     }
-
     const handleSelectionClick = () => {
         if (selectedSymptomes.length === 0) {
             return;
@@ -67,10 +67,13 @@ const [dataMaladies, setDataMaladies] = useState([]);
             setFilteredMedecins(medecins);
         }
     }
-
     useEffect(()=> {
         console.log(selectedSymptomes);
     },[selectedSymptomes])
+
+    const handleClickToMedecins = () => {
+        navigate ( "/medecins", {state:filteredMedecins})
+    }
 
     return (
         <div className="pageHome">
@@ -95,15 +98,19 @@ const [dataMaladies, setDataMaladies] = useState([]);
                     ))}
                 </div>
                 <div className="divSelectionnerButtonH">     
-                    <button className="SelectionnerButtonH" onClick={handleSelectionClick}>Sélectionner</button>
+                    <button className="SelectionnerButtonH" onClick={handleSelectionClick}>Recherche de maladie</button>
                 </div> 
                 <div>
                     <p className="PhraseH">Vous êtes à {selectedCity} et vous avez possiblement {possibleMaladies.join(", ")}.</p>
                 </div>  
                 {filteredMedecins.map((medecin, index) => (
                     <p key={index}>{medecin.nom}</p>
-                ))}
-               
+                ))} 
+                <div className = "divButtonMedecinsH">
+                    
+                        <button className ="ButtonMedecinsH" onClick={handleClickToMedecins}>Voir les médecins</button>
+                    
+                </div>
             </div>
         </div>
     );

@@ -64,6 +64,9 @@
  height:auto;
  width:30%;
 }
+
+// PASTILLES SYMPTOMES
+
 .containerH{
     width: 100%;
     display:flex;
@@ -100,12 +103,8 @@
 .pastillesH {
     width: 120px;
     height: auto;
-    // transition: transform 0.5s;
 }
 
-// .pastillesH:hover{
-//     transform: scale(1.3);
-// }
 .SymptomesNameH {
     font-family: 'MedievalSharp';
     font-size: 13px;
@@ -118,12 +117,16 @@
     font-weight: bold;
     border: solid black 2px;
     background-color: #ae4911;
+    
 }
+
+
 
 .divSelectionnerButtonH {
     display: flex;
     justify-content: center;
 }
+
 .PhraseH {
     font-family: 'MedievalSharp';
     font-size: 30px;

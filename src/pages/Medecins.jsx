@@ -5,6 +5,7 @@ import FicheMedecin from "../components/FicheMedecin";
 import "./Medecins.scss";
 
 function Medecins () {
+    
     // const [dataMedecin, setDataMedecin] = useState([]);
 
     // useEffect(() => {
