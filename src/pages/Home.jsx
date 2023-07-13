@@ -7,6 +7,7 @@ import CarteDeFrance from "../assets/CarteDeFrance.png"
 import axios from "axios";
 import "./Home.scss";
 import Header1 from "../components/Header1"
+import explication from"../assets/explication2.png"
 
 function Home() {
 const [dataMaladies, setDataMaladies] = useState([]);
@@ -117,8 +118,9 @@ const [dataMaladies, setDataMaladies] = useState([]);
     return (
     <>
         <Header1/>
+        
         <div className="pageHome">
-
+        <img className="explication2" src={explication} alt="explication du service" />
             <div className="divFranceH">
                 <img className="FranceH" src={CarteDeFrance} alt="France" />
                 
