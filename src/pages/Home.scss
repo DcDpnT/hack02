@@ -10,7 +10,9 @@
  justify-content: center;
  margin: auto;
  position:relative;
+ 
 }
+
 
 .listeVilleH{
     font-family: 'MedievalSharp';
@@ -26,6 +28,10 @@
     left: 50%;
     top: 40%;
     border-radius: 50px 50px 50px 50px;
+    transition: transform 0.3s ease;
+}
+.ParisH:hover{
+    transform: scale(1.2);
 }
 .LilleH{
     height: 18px;
@@ -225,4 +231,20 @@
 .PhraseH {
     font-family: 'MedievalSharp';
     font-size: 30px;
+}
+
+.divButtonMedecinsH {
+    display: flex;
+    justify-content: center;
+}
+
+.ButtonMedecinsH {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 200px;
+    margin-top: 40px;
+    font-weight: bold;
+    border: solid black 2px;
+    border-radius: 30PX;
+    background-color: #ae4911;
 }

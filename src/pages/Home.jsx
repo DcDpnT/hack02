@@ -144,9 +144,9 @@ const [dataMaladies, setDataMaladies] = useState([]);
                 <div>
                     <p className="PhraseH">Vous êtes à {selectedCity} et vous avez possiblement {possibleMaladies.join(", ")}.</p>
                 </div>  
-                {filteredMedecins.map((medecin, index) => (
+                {/* {filteredMedecins.map((medecin, index) => (
                     <p key={index}>{medecin.nom}</p>
-                ))} 
+                ))}  */}
                 <div className = "divButtonMedecinsH">
                     
                         <button className ="ButtonMedecinsH" onClick={handleClickToMedecins}>Voir les médecins</button>
