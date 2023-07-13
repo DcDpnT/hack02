@@ -13,7 +13,7 @@ function MedecinDetails() {
     // });})
 
     return (
-        <p></p>
+      <></>
     )
 }
 export default MedecinDetails
