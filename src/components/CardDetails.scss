@@ -1,0 +1,40 @@
+.container{
+    background-image: url(../assets/Parchem_paysage.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:32px;
+    justify-content: center;
+    border-radius: 20px;
+    width:70%;
+    height: 80vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+       
+       button {
+          border: none;
+          background-color: rgb(38, 162, 189);
+          color: white;
+          border-radius: 20px;
+          height:30px;
+       }
+       
+       .Medecins{
+       margin:auto;  
+       width:100%;
+       .box6{
+          margin:32px 32px 32px 0px;
+       }
+ 
+       .photos{
+          width:90px;
+          
+          img{
+          width: 100%;
+          border-radius:50%;
+          }
+          }
+       }
+ }
+ 

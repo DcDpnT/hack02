@@ -4,193 +4,268 @@
         "nom": "Jeannot La Pustule",
         "maladies": ["Peste noire", "Syphilis", "Rougeole", "Variole", "Ergotisme", "Écrouelles", "Goutte"],
         "lieu": "Paris",
-        "image":"https://cdn.discordapp.com/attachments/1081226827453956207/1128673652573999226/perudos_flat_vector_illustration_of_a_medieval_man_has_muscle_p_83139bb7-e74f-4988-9b3e-e8d2a999b019.png"
+        "image":"https://cdn.discordapp.com/attachments/1081226827453956207/1128673652573999226/perudos_flat_vector_illustration_of_a_medieval_man_has_muscle_p_83139bb7-e74f-4988-9b3e-e8d2a999b019.png",
+        "spécialité":"Dermatologie",
+        "description" : "Jeannot La Pustule est un dermatologue renommé spécialisé dans le traitement des affections cutanées. Avec sa vaste expérience et ses connaissances approfondies, il est expert dans le diagnostic et le traitement des maladies de la peau, des infections cutanées et des affections dermatologiques courantes."
     },
     {
         "id":2,
         "nom": "Guillaume Le Sanglant",
         "maladies": ["Lèpre", "Dysenterie", "Grippe", "Carie", "Suette anglaise", "Blennorragie", "Goutte"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité" : "Pédiatrie",
+        "description" : "Le Dr Guillaume Le Sanglant est un pédiatre passionné par le bien-être des enfants. Avec sa nature douce et attentionnée, il est en mesure de rassurer les jeunes patients et leurs parents tout en offrant des soins médicaux de qualité. Il est spécialisé dans les maladies infantiles courantes, les vaccinations et le suivi de la croissance et du développement des enfants."
     },
     {
         "id":3,
         "nom": "Hugues Le Purulent",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité" : "Cardiologie",
+        "description" : "Le Dr Hugues Le Purulent est un cardiologue hautement qualifié et dévoué à la santé cardiovasculaire de ses patients. Grâce à ses compétences en diagnostic avancées, il est capable d'identifier et de traiter efficacement les problèmes cardiaques tels que les maladies coronariennes, l'hypertension et les anomalies du rythme cardiaque."
     },
     {
         "id":4,
         "nom": "Thibault Le Fiévreux",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité" : "Gynécologie",
+        "description" : "Le Dr Thibault Le Fiévreux est un gynécologue expérimenté qui se consacre à la santé des femmes. Il offre des services complets, y compris les examens gynécologiques de routine, les consultations pré et post-natales, la planification familiale et le traitement des problèmes gynécologiques courants."
+        
+
     },
     {
         "id":5,
         "nom": "Robert Le Gangreneux",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité" : "Orthopédie",
+        "description" : "Il est un chirurgien orthopédiste réputé qui se spécialise dans le traitement des affections musculo-squelettiques. Il est expert dans les interventions chirurgicales orthopédiques telles que les remplacements articulaires, les réparations de fractures et les corrections de déformations osseuses."
+      
+
     },
     {
         "id":6,
         "nom": "Pierre Le Suppurant",
         "maladies": ["Rougeole", "Carie", "Variole", "Suette anglaise", "Ergotisme", "Écrouelles", "Goutte"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité":"Médecine générale",
+        "description" : "Il est un médecin généraliste dévoué et attentionné. Il offre des soins médicaux complets, notamment les examens de routine, les consultations pour diverses affections et les recommandations pour le suivi d'une vie saine."
     },
     {
         "id":7,
         "nom": "Jacques Le Contagieux",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité" : "Ophtalmologie",
+        "description" : "Il est un ophtalmologue compétent qui se spécialise dans le diagnostic et le traitement des troubles oculaires. Il effectue des examens de la vue, traite les maladies oculaires courantes et réalise des interventions chirurgicales oculaires si nécessaire."
     },
     {
         "id":8,
         "nom": "Simon Le Pestiféré",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Paris"
+        "lieu": "Paris",
+        "spécialité":"Chirurgie générale",
+        "description" : "Il est un chirurgien général expérimenté qui réalise diverses interventions chirurgicales, telles que l'ablation des appendices, la réparation de hernies et les procédures laparoscopiques. Il accorde une attention particulière à la sécurité et au rétablissement rapide des patients."
     },
     {
         "id":9,
         "nom": "Louis Le Chancreux",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Neurologie",
+        "description":"Il est un neurologue spécialisé dans le diagnostic et le traitement des maladies du système nerveux central et périphérique. Il prend en charge les patients atteints de troubles neurologiques tels que l'épilepsie, la sclérose en plaques et les migraines."
     },
     {
         "id":10,
         "nom": "Charles Le Vérolé",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Médecine interne",
+        "description" : "Il est un médecin interne compétent qui se concentre sur le diagnostic et le traitement des maladies internes complexes. Il est expert dans la gestion des maladies chroniques, la coordination des soins entre différents spécialistes et la prise en charge globale du patient."
     },
     {
         "id":11,
         "nom": "Guillaume Le Touffu",
         "maladies": ["Lèpre", "Dysenterie", "Grippe", "Carie", "Suette anglaise", "Blennorragie", "Goutte"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Endocrinologie",
+        "description" : "Il est un endocrinologue spécialisé dans les troubles hormonaux. Il évalue et traite les patients présentant des problèmes de thyroïde, de diabète, d'obésité et d'autres affections endocriniennes."
     },
     {
         "id":12,
         "nom": "Hugues Le Puant",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Médecine sportive",
+        "description" : "Il est un médecin du sport passionné par la santé et la performance des athlètes. Il évalue les blessures sportives, supervise la rééducation et fournit des conseils sur la prévention des blessures et l'amélioration des performances."
     },
     {
         "id":13,
         "nom": "Robert Le Boiteux",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Rhumatologie",
+        "description" : "Il est un rhumatologue spécialisé dans le diagnostic et le traitement des maladies articulaires, des troubles musculo-squelettiques et des maladies auto-immunes. Il aide les patients à gérer les douleurs chroniques et à améliorer leur qualité de vie."
     },
     {
         "id":14,
         "nom": "Pierre Le Borgne",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Oto-rhino-laryngologie",
+        "description" : "Il est un oto-rhino-laryngologiste compétent qui se concentre sur les affections de l'oreille, du nez et de la gorge. Il traite les problèmes tels que les infections de l'oreille, les sinusites, les amygdales enflammées et les problèmes de voix."
     },
     {
         "id":15,
         "nom": "Gaspard Le Malingre",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Allergologie",
+        "description" : "Il est un allergologue spécialisé dans l'évaluation, le diagnostic et le traitement des allergies. Il aide les patients à identifier leurs allergènes, propose des plans de traitement personnalisés et offre des conseils sur la prévention des réactions allergiques."
+
     },
     {
         "id":16,
         "nom": "Thibault Le Chétif",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Lille"
+        "lieu": "Lille",
+        "spécialité" : "Médecine du travail",
+        "description" : "Il est un médecin du travail qui veille à la santé et à la sécurité des travailleurs. Il effectue des évaluations médicales, des examens de prévention, des consultations en matière d'ergonomie et des conseils sur la gestion des risques professionnels."
     },
     {
         "id":17,
         "nom": "Raoul Le Grincheux",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité":"Médecine d'urgence",
+        "description" : "Il est un médecin d'urgence hautement qualifié qui intervient dans les situations médicales critiques. Il est formé pour évaluer rapidement les patients, fournir des soins d'urgence et prendre des décisions médicales urgentes dans des environnements à haute pression."
     },
     {
         "id":18,
         "nom": "Bertrand Le Malade",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine nucléaire",
+        "description" : "Il est un spécialiste en médecine nucléaire qui utilise des substances radioactives pour diagnostiquer et traiter diverses affections. Il réalise des scintigraphies, des tests de perfusion et d'autres procédures d'imagerie moléculaire pour évaluer la fonction des organes et détecter les anomalies."
+
     },
     {
         "id":19,
         "nom": "Gautier Le Contrefait",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine de la douleur",
+        "description" : "Il est un spécialiste en médecine de la douleur qui traite les patients souffrant de douleur chronique. Il développe des plans de gestion de la douleur personnalisés, utilise des techniques d'interventionnelles et collabore avec d'autres professionnels de la santé pour améliorer la qualité de vie de ses patients."
     },
     {
         "id":20,
         "nom": "Amaury Le Cholérique",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine physique et de réadaptation",
+        "description" : "Il est un médecin spécialisé en médecine physique et de réadaptation. Il aide les patients à retrouver leur mobilité et leur fonctionnalité après une blessure ou une maladie, en utilisant des techniques de réadaptation, de thérapie physique et de gestion de la douleur."
     },
     {
         "id":21,
         "nom": "Baudouin Le Maladif",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine génétique",
+        "description" : "Il est un généticien clinique qui évalue les patients pour des maladies génétiques et des prédispositions héréditaires. Il effectue des tests génétiques, fournit des conseils génétiques et collabore avec d'autres spécialistes pour offrir des soins personnalisés."
+
     },
     {
         "id":22,
         "nom": "Enguerrand Le Bossu",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine de la reproduction",
+        "description" : "Le Il est un spécialiste en médecine de la reproduction qui aide les couples à concevoir et à gérer les problèmes de fertilité. Il offre des services de diagnostic, de traitement et de conseil en matière de reproduction assistée, tels que la fécondation in vitro et l'insémination artificielle."
     },
     {
         "id":23,
         "nom": "Eudes Le Fâcheux",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine légale",
+        "description" : "Il est un médecin légiste compétent qui utilise ses connaissances médicales pour aider à résoudre des affaires juridiques. Il réalise des autopsies, analyse les preuves médicales et témoigne en tant qu'expert médical lors de procès."
+
     },
     {
         "id":24,
         "nom": "Girard Le Malheureux",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Marseille"
+        "lieu": "Marseille",
+        "spécialité" : "Médecine préventive",
+        "description" : "Il est un médecin spécialisé en médecine préventive et en santé publique. Il travaille sur la promotion de la santé, la prévention des maladies et l'éducation sur les comportements sains, afin de préserver et d'améliorer la santé de la population."
     },
     {
         "id":25,
         "nom": "Hardouin Le Difforme",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Chirurgie plastique",
+        "description" : "Il est un chirurgien plasticien renommé qui se spécialise dans les interventions esthétiques et reconstructives. Avec son expertise en chirurgie du visage, du corps et des seins, il aide ses patients à atteindre leurs objectifs esthétiques et à restaurer leur confiance en eux."
     },
     {
         "id":26,
         "nom": "Herbert Le Grognon",
         "maladies": ["Peste noire",  "Lèpre",  "Dysenterie",  "Grippe",  "Syphilis"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Médecine interne",
+        "description" : "Il est un médecin interne dédié à la prise en charge des maladies complexes et des troubles systémiques. Il évalue les symptômes, réalise des examens diagnostiques approfondis et propose des plans de traitement individualisés pour améliorer la santé globale de ses patients."
+
     },
     {
         "id":27,
         "nom": "Robert Le Pestiféré",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Pédiatrie",
+        "description" : "Il est un pédiatre attentionné et compétent qui offre des soins de qualité aux nourrissons, aux enfants et aux adolescents. Il assure le suivi de la croissance, du développement et de la santé globale des jeunes patients tout en fournissant un soutien aux parents."
+
     },
     {
         "id":28,
         "nom": "Pierre Le Contaminé",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Médecine du sommeil",
+        "description" : "Il est un spécialiste en médecine du sommeil qui diagnostique et traite les troubles liés au sommeil, tels que l'insomnie, l'apnée du sommeil et les troubles du rythme circadien. Il aide les patients à améliorer leur qualité de sommeil et leur bien-être général."
     },
     {
         "id":29,
         "nom": "Jacques Le Gangreneux",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Médecine de famille",
+        "description" : "Il est un médecin de famille engagé à fournir des soins de santé complets et continus aux individus et aux familles. Il offre des soins préventifs, des traitements de routine, des conseils sur le mode de vie et coordonne les références vers d'autres spécialistes si nécessaire."
     },
     {
         "id":30,
         "nom": "Henri Le Chancreux",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Médecine du sport",
+        "Description" : "Il est un médecin du sport passionné par la santé et la performance des athlètes. Il évalue les blessures liées au sport, propose des plans de réadaptation, offre des conseils en matière de nutrition et supervise le retour à l'activité physique après une blessure."
+    
     },
     {
         "id":31,
         "nom": "Louis Le Vérolé",
         "maladies": ["Variole", "Suette anglaise",  "Ergotisme",  "Écrouelles",  "Goutte",  "Blennorragie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Radiologie",
+        "description" : "Il est un radiologue compétent qui interprète les images diagnostiques telles que les radiographies, les scanners et les IRM. Il collabore étroitement avec d'autres médecins pour aider au diagnostic, à la planification des traitements et au suivi des patients."
     },
     {
         "id":32,
         "nom": "Charles Le Suppurant",
         "maladies": ["Peste noire", "Lèpre", "Dysenterie", "Grippe", "Syphilis", "Rougeole", "Carie"],
-        "lieu": "Brest"
+        "lieu": "Brest",
+        "spécialité" : "Médecine de voyage",
+        "description" : "Le Dr Jules Renaud est un médecin spécialisé dans la médecine des voyages. Il conseille les voyageurs sur les vaccinations nécessaires, les précautions sanitaires et les mesures de sécurité pour minimiser les risques de maladies lors de leurs déplacements."
     }
     
 ]

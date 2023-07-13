@@ -4,10 +4,10 @@
    background-repeat: no-repeat;
    background-position: center;
    padding:32px;
+   justify-content: center;
 
    border-radius: 20px;
-   margin: 16px;;
-   width:60%;
+   width:70%;
    height: 55vh;
    display:flex;
    flex-direction:row;
@@ -15,16 +15,19 @@
       
       button {
          border: none;
+         display: flex;
          background-color: rgb(38, 162, 189);
          color: white;
          border-radius: 20px;
          height:30px;
+         padding:10px;
+         text-align: center;
+         align-items: center;
+         text-decoration: none;
       }
       
       .Medecin{
-      margin:16px;
-      margin-left: 40px;
-      
+      margin:16px;    
       .box1{
          margin:32px 32px 32px 0px;
       }
@@ -37,5 +40,11 @@
          border-radius:50%;
          }
          }
+      }
+
+      .bouton-rdv {
+         position: absolute;
+         right: 30%;
+         bottom: -20%;
       }
 }
