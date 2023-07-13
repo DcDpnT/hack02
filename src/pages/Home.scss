@@ -85,7 +85,12 @@
 .pastillesH {
     width: 120px;
     height: auto;
+    // transition: transform 0.5s;
 }
+
+// .pastillesH:hover{
+//     transform: scale(1.3);
+// }
 .SymptomesNameH {
     font-family: 'MedievalSharp';
     font-size: 13px;
