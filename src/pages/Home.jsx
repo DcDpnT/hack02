@@ -19,21 +19,21 @@ const [dataMaladies, setDataMaladies] = useState([]);
 
     useEffect(() => {
         axios.get("http://localhost:4242/api/maladies").then((response) => {
-          console.info(response.data);
+        //   console.info(response.data);
           setDataMaladies(response.data);
         });
     }, []);
 
     useEffect(() => {
         axios.get("http://localhost:4242/api/medecins").then((response) => {
-          console.info(response.data);
+        //   console.info(response.data);
           setDataMedecins(response.data);
         });
     }, []);
 
     const handleImageClick = (symptome) => {
         const presenceSymptome = selectedSymptomes.includes(symptome);
-        console.log("presenceSymptome",presenceSymptome);
+        // console.log("presenceSymptome",presenceSymptome);
         if(presenceSymptome){
             const newSelectedSymptomes = selectedSymptomes.filter(item => item !== symptome);
             setSelectedSymptomes(newSelectedSymptomes);
@@ -94,18 +94,22 @@ const [dataMaladies, setDataMaladies] = useState([]);
 
             setPossibleMaladies(maladies);  
 
+            // console.log("possibleMaladies",possibleMaladies);
+
         if (maladies.length > 0) {
             const medecins = dataMedecins.filter((medecin) => 
                 maladies.every((maladie) => medecin.maladies.includes(maladie)) && medecin.lieu === selectedCity  // Add city filter here
             );
             setFilteredMedecins(medecins);
+            // console.log("medecins",medecins);
         }
     }
-    useEffect(()=> {
-        console.log(selectedSymptomes);
-    },[selectedSymptomes])
+    // useEffect(()=> {
+    //     console.log(selectedSymptomes);
+    // },[selectedSymptomes])
 
     const handleClickToMedecins = () => {
+        // console.log(filteredMedecins);
         navigate ( "/medecins", {state:filteredMedecins})
     }
 
