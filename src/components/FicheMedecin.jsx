@@ -3,6 +3,7 @@ import Card from "./Card.jsx";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import TableauImageMedecin from "./TableauImageMedecin";
 import { useLocation } from "react-router-dom";
 
   function FicheMedecin() {
@@ -20,12 +21,12 @@ import { useLocation } from "react-router-dom";
 	<div className="content" >
 
 		{filteredMedecins ?
-		filteredMedecins.map((medecin)=> (	
-			<Card key={medecin.id} medecin={medecin}/>			
+		filteredMedecins.map((medecin, index)=> (	
+			<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
 		))
 		:
-		dataMedecin.map((medecin)=> (	
-		<Card key={medecin.id} medecin={medecin}/>			
+		dataMedecin.map((medecin, index)=> (	
+		<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
 	))}
 
 	</div>

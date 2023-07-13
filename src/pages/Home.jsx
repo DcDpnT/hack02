@@ -56,10 +56,44 @@ const [dataMaladies, setDataMaladies] = useState([]);
         if (selectedSymptomes.length === 0) {
             return;
         }
-        const maladies = dataMaladies.filter((maladie) => 
-            selectedSymptomes.some((symptome) => maladie.symptomes.includes(symptome))
-        ).map((maladie) => maladie.nom);
-        setPossibleMaladies(maladies);  
+        // const maladies = dataMaladies.filter((maladie) => 
+        //     selectedSymptomes.some((symptome) => maladie.symptomes.includes(symptome))
+        // ).map((maladie) => maladie.nom);
+
+        // const maladies = dataMaladies.filter((maladie) =>
+        //     selectedSymptomes.some((symptome) =>
+        //     maladie.symptomes.some((maladieSymptome) =>
+        //     maladieSymptome.includes(symptome))
+        // )).map((maladie) => maladie.nom); //ajout de la possibilité d'inclure la maladie qui contient un symptome "toux seche" si le symptome est "toux"
+        // setPossibleMaladies(maladies);  
+
+        // const maladies = dataMaladies.filter((maladie) =>
+        //     selectedSymptomes.every((symptome) =>
+        //     maladie.symptomes.some((maladieSymptome) =>
+        //     maladieSymptome.includes(symptome))
+        //     )).map((maladie) => maladie.nom);  //avec cette version, il faut aussi que la maladie contienne tous les symptomes pour être sélectionnee
+
+        const maladies = dataMaladies.filter((maladie) => {
+            const nonMatchingSymptoms = selectedSymptomes.filter(
+                (symptome) =>
+                    !maladie.symptomes.some((maladieSymptome) =>
+                        maladieSymptome.includes(symptome)
+                    )
+            );
+            return (
+                nonMatchingSymptoms.length <= 2 &&
+                selectedSymptomes.some((symptome) =>
+                    maladie.symptomes.some((maladieSymptome) =>
+                        maladieSymptome.includes(symptome)
+                    )
+                )
+            );
+        }).map((maladie) => maladie.nom); 
+        //avec cette version on sélectionne quand même une maladie s'il selectedSymptomes de contient pas plus de 2 symptomes
+        // qu'il n'y a pas dans maladie.symptome. Il faut quand même que la maladie contienne au moins un des symptomes de selectedSymptome
+
+            setPossibleMaladies(maladies);  
+
         if (maladies.length > 0) {
             const medecins = dataMedecins.filter((medecin) => 
                 maladies.every((maladie) => medecin.maladies.includes(maladie)) && medecin.lieu === selectedCity  // Add city filter here

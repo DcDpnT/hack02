@@ -5,9 +5,11 @@
 }
 
 .divFranceH{
- width : 100%;
+ width : 40%;
  display:flex;
  justify-content: center;
+ margin: auto;
+ position:relative;
 }
 
 .listeVilleH{
@@ -20,9 +22,9 @@
     font-size: 100px;
     background-color: #ae4911;
     display: flex;
-    position: relative;
-    right: 300px;
-    top: 220px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
     border-radius: 50px 50px 50px 50px;
 }
 .LilleH{
@@ -31,9 +33,9 @@
     font-size: 100px;
     background-color: #ae4911;
     display: flex;
-    position: relative;
-    right: 330px;
-    top: 120px;
+    position: absolute;
+    right: 48%;
+    top: 23%;
     border-radius: 50px 50px 50px 50px;
 }
 .MarseilleH {
@@ -42,9 +44,9 @@
     font-size: 100px;
     background-color: #ae4911;
     display: flex;
-    position: relative;
-    right: 230px;
-    top: 460px;
+    position: absolute;
+    right:30% ;
+    bottom:25% ;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -54,15 +56,15 @@
     font-size: 100px;
     background-color: #ae4911;
     display: flex;
-    position: relative;
-    right: 550px;
-    top: 220px;
+    position: absolute;
+    left: 27%;
+    top: 36%;
     border-radius: 50px 50px 50px 50px;
 }
 .FranceH{
     margin-left: 45px;
  height:auto;
- width:30%;
+ width:100%;
 }
 
 // PASTILLES SYMPTOMES
