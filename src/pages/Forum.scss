@@ -1,21 +1,26 @@
+body{
+    background-color: #FDEFD5;
+}
 .Forum-main {
     width: 90vw;
     min-height: 80vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 1px solid black;
+    align-items: center;
     position: sticky;
     top: 10vh;
+    background-color: #FDEFD5;
+    justify-content: flex-end;
 
     .Forum-topics {
-        width: 40%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         font-size: 1em;
+        margin: auto;
+        margin-left: 90px;
 
         div, button {
             width: 100%;
@@ -81,22 +86,62 @@
             }
         }
     }
+    .Parchem{
+        display: flex;
+        padding-left: 100px;
+        padding-right: 80px;
+        border-top-width: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+        background-image: url("../assets/parchem.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-attachment: fixed;
+    }
 
     .Forum-conversation {
-        width: 45%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin: auto;
+        height: 370px;
+        overflow-y: auto;
+        
+
+        .divNewComment{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 362px;
+            padding-top: 0px;
+
+          
+
+            .textareaForum{
+                height: 267px;
+                margin-bottom: 30px;
+                width: 271px;
+                background-color: transparent;
+                color: white;
+                border: none;
+            }
+
+        }
 
         div {
             width: 100%;
-            border: 1px solid black;
+            // border: 1px solid black;
             padding: 16px;
             box-sizing: border-box;
 
             p {
                 text-align: left;
+                height: 70%;
 
                 span {
                     font-weight: bold;
@@ -104,5 +149,50 @@
             }
         }
     }
+
+}
+
+@media (max-width: 770px) {
+    .Forum-main {
+        width: 90vw;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 10vh;
+        background-color: #FDEFD5;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+    
+        .Forum-topics {
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 1em;
+            margin: auto;
+            margin-left: auto;
+            
+        }
+    
+        .Forum-conversation {
+            /* width: 100%; */
+            /* display: flex; */
+            /* flex-direction: column; */
+            /* margin: auto; */
+            /* height: 370px; */
+            align-content: center;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    
+    }
+
+
 
 }

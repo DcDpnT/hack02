@@ -10,6 +10,7 @@ import { useLocation } from "react-router-dom";
 	
 	const location = useLocation()
 	const filteredMedecins = location.state
+	console.log("filteredMedecins",filteredMedecins);
 	const [dataMedecin, setDataMedecin] = useState([]);   
     useEffect(() => {
 		axios.get("http://localhost:4242/api/medecins").then((response) => {

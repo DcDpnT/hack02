@@ -1,6 +1,7 @@
 import "./Forum.scss"
 import { useEffect, useState } from "react";
 import axios from 'axios'
+import Header1 from "../components/Header1"
 
 
 function Forum () {
@@ -106,6 +107,8 @@ function Forum () {
     
 
     return (
+    <>
+        <Header1/>
         <main className="Forum-main">
             <section className="Forum-topics">
                 <div>
@@ -121,6 +124,7 @@ function Forum () {
                     <button type="button" onClick={handleClickNewTopic}>Ajouter un topic</button>
                 </div>
             </section>
+            <div className="Parchem">
             <section className="Forum-conversation" >
                 {conversation !== [] ?
                 <>
@@ -131,7 +135,7 @@ function Forum () {
                         </div>
                     ))}
                 <div className="divNewComment">
-                    <textarea placeholder="Saisissez votre commentaire" value={comment} onChange={handleChangeComment}></textarea>
+                    <textarea className="textareaForum" placeholder="Saisissez votre commentaire" value={comment} onChange={handleChangeComment}></textarea>
                     <button type="button" onClick={handleClickSubmitComment}>Envoyer</button>
                 </div>
                 </>
@@ -139,8 +143,9 @@ function Forum () {
                     <p>Choisissez un sujet de discussion</p>
                 }
             </section>
-
+            </div>
         </main>
+    </>
     )
 }
 
