@@ -1,37 +1,41 @@
 .wrap-container{
-background-color: #D9D9D9;
-border-radius: 20px;
-margin: 16px;;
-width:55%;
-height: 30vh;
-display:flex;
-flex-direction:row;
-justify-content:space-around;
-align-items: center;
-   
-   button {
-      border: none;
-      background-color: rgb(38, 162, 189);
-      color: white;
-      border-radius: 20px;
-      height:30px;
-   }
-   
-   .Medecin{
-    margin:16px;
-   
-    .box1{
-      margin:16px 16px 16px 0px;
-    }
+   background-image: url(../assets/Parchem_paysage.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding:32px;
 
-    .photo{
-      width:90px;
+   border-radius: 20px;
+   margin: 16px;;
+   width:60%;
+   height: 55vh;
+   display:flex;
+   flex-direction:row;
+   align-items: center;
       
-       img{
-        width: 100%;
-        border-radius:50%;
-       }
+      button {
+         border: none;
+         background-color: rgb(38, 162, 189);
+         color: white;
+         border-radius: 20px;
+         height:30px;
       }
-   }
- 
+      
+      .Medecin{
+      margin:16px;
+      margin-left: 40px;
+      
+      .box1{
+         margin:32px 32px 32px 0px;
+      }
+
+      .photo{
+         width:90px;
+         
+         img{
+         width: 100%;
+         border-radius:50%;
+         }
+         }
+      }
 }
