@@ -17,72 +17,86 @@ const TableauHome = [
     {
       id: 1,
       symptomes: "conjonctivite",
-      imgsrc:Conjonctivite
+      imgsrc:Conjonctivite,
+      selected: false
     },
     {
       id: 2,
       symptomes: "diarrhée sanglante",
-      imgsrc: Diarrhée
+      imgsrc: Diarrhée,
+      selected: false
     },
     {
       id: 3,
       symptomes: "faiblesse musculaire",
-      imgsrc: DouleursMusculaires
+      imgsrc: DouleursMusculaires,
+      selected: false
     },
     {
       id: 4,
       symptomes: "douleurs abdominales",
       imgsrc: DouleursVentre,
+      selected: false
     },
     {
     id: 5,
     symptomes: "éruptions cutanées",
     imgsrc: ErruptionCutanée,
+    selected: false
     },
       {
         id: 6,
         symptomes: "ganglions enflés",
         imgsrc: Ganglions,
+        selected: false
       },
       {
         id: 7,
         symptomes: "fatigue intense",
         imgsrc: GrandeFatigue,
+        selected: false
       },
       {
         id: 8,
         symptomes: "perte de poids",
         imgsrc: Maigre,
+        selected: false
       },
       {
         id: 9,
         symptomes: "mal aux dents",
         imgsrc: MalDents,
+        selected: false
       },
       {
         id: 10,
         symptomes: "maux de tête",
         imgsrc: MalDeTete,
+        selected: false
       },
       {
         id: 11,
         symptomes: "écoulement du nez",
         imgsrc: NezQuiCoule,
+        selected: false
       },
       {
         id: 12,
         symptomes: "éruptions cutanées",
         imgsrc: TachesNoirs,
+        selected: false
       },
       {
         id: 13,
         symptomes: "toux sèche",
         imgsrc: Toux,
+        selected: false
       },
       {
         id: 14,
         symptomes: "nausées",
         imgsrc: Vomissement,
+        selected: false
       },
 
   ];
