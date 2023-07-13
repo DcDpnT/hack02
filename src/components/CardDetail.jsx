@@ -5,17 +5,18 @@ function CardDetail ({medecin, image}) {
     
     return (
 	<>		
-		<div className="wrap-container">
-					<div className="Medecin">
-							<div className="photo">
+		<div className="container">
+					<div className="Medecins">
+							<div className="photos">
 									<img src={image} alt= "medecin" />
 						    </div>
-						<div className="box1">
+						<div className="box6">
 						{medecin.nom}<br/>{medecin.lieu}
-						</div> 
-
+                            <p>Spécialité : {medecin.spécialité}</p>
+                            <p>{medecin.description}</p>
+                        </div> 
 					</div>
-				<div className="box3">
+				<div className="box7">
 					<CardCalendar /> 
 				</div>
 		</div>	

@@ -1,16 +1,15 @@
-.wrap-container{
+.container{
     background-image: url(../assets/Parchem_paysage.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     padding:32px;
     justify-content: center;
- 
     border-radius: 20px;
     width:70%;
-    height: 55vh;
+    height: 80vh;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items: center;
        
        button {
@@ -21,13 +20,14 @@
           height:30px;
        }
        
-       .Medecin{
-       margin:16px;    
-       .box1{
+       .Medecins{
+       margin:auto;  
+       width:100%;
+       .box6{
           margin:32px 32px 32px 0px;
        }
  
-       .photo{
+       .photos{
           width:90px;
           
           img{

@@ -15,10 +15,15 @@
       
       button {
          border: none;
+         display: flex;
          background-color: rgb(38, 162, 189);
          color: white;
          border-radius: 20px;
          height:30px;
+         padding:10px;
+         text-align: center;
+         align-items: center;
+         text-decoration: none;
       }
       
       .Medecin{
@@ -35,5 +40,11 @@
          border-radius:50%;
          }
          }
+      }
+
+      .bouton-rdv {
+         position: absolute;
+         right: 30%;
+         bottom: -20%;
       }
 }
