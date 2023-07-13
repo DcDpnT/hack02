@@ -4,18 +4,28 @@ import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import TableauImageMedecin from "./TableauImageMedecin";
+import { useLocation } from "react-router-dom";
 
   function FicheMedecin() {
+	
+	const location = useLocation()
+	const filteredMedecins = location.state
 	const [dataMedecin, setDataMedecin] = useState([]);   
     useEffect(() => {
 		axios.get("http://localhost:4242/api/medecins").then((response) => {
 	console.info(response.data);
 	setDataMedecin(response.data);
 		});  }, []);
-
+		
 	return (
 	<div className="content" >
-		{dataMedecin.map((medecin,index)=> (	
+
+		{filteredMedecins ?
+		filteredMedecins.map((medecin, index)=> (	
+			<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
+		))
+		:
+		dataMedecin.map((medecin, index)=> (	
 		<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
 	))}
 
