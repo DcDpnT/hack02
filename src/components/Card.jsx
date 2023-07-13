@@ -9,7 +9,7 @@ function Card ({medecin, image}) {
 		<div className="wrap-container">
 					<div className="Medecin">
 											<div className="photo">
-													<img src={medecin.image} alt= "medecin" />
+													<img src={image} alt= "medecin" />
 											</div>
 						<div className="box1">
 						{medecin.nom}<br/>{medecin.lieu}
