@@ -80,6 +80,21 @@
     justify-content: center;
     flex-wrap: wrap;
     gap:40px
+
+}
+
+.divPastillesH {
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.symptome-selected {
+    border: 7px solid #ae4811a4;
 }
 
 .pastillesH {
