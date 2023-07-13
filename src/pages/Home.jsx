@@ -6,6 +6,7 @@ import TableauHome from "../components/TableauHome";
 import CarteDeFrance from "../assets/CarteDeFrance.png"
 import axios from "axios";
 import "./Home.scss";
+import Header1 from "../components/Header1"
 
 function Home() {
 const [dataMaladies, setDataMaladies] = useState([]);
@@ -114,6 +115,8 @@ const [dataMaladies, setDataMaladies] = useState([]);
     }
 
     return (
+    <>
+        <Header1/>
         <div className="pageHome">
 
             <div className="divFranceH">
@@ -151,7 +154,9 @@ const [dataMaladies, setDataMaladies] = useState([]);
                 </div>
             </div>
         </div>
+    </>
     );
+
 }
 
 export default Home;
