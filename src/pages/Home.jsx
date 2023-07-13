@@ -1,12 +1,13 @@
 
 import {useState, useEffect,} from "react"
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 import TableauHome from "../components/TableauHome";
 import CarteDeFrance from "../assets/CarteDeFrance.png"
 import axios from "axios";
 import "./Home.scss";
 import Header1 from "../components/Header1"
+import MedecinHome from "../assets/MedecinHome.png"
 import explication from"../assets/explication2.png"
 
 function Home() {
@@ -146,13 +147,13 @@ const [dataMaladies, setDataMaladies] = useState([]);
                 <div>
                     <p className="PhraseH">Vous êtes à {selectedCity} et vous avez possiblement {possibleMaladies.join(", ")}.</p>
                 </div>  
-                {/* {filteredMedecins.map((medecin, index) => (
+                {filteredMedecins.map((medecin, index) => (
                     <p key={index}>{medecin.nom}</p>
-                ))}  */}
-                <div className = "divButtonMedecinsH">
-                    
-                        <button className ="ButtonMedecinsH" onClick={handleClickToMedecins}>Voir les médecins</button>
-                    
+                ))} 
+                <div className="divButtonMedecinsH">              
+                    <button className="btnMed" onClick={handleClickToMedecins}>  
+                        <img src={MedecinHome} alt="Go to Medecins" />
+                    </button>
                 </div>
             </div>
         </div>
