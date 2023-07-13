@@ -13,6 +13,7 @@ const [dataMaladies, setDataMaladies] = useState([]);
     const [filteredMedecins, setFilteredMedecins] = useState([]);
     const [selectedCity, setSelectedCity] = useState("");  // Add this line
     const [possibleMaladies, setPossibleMaladies] = useState([]);
+    const [symptomes, setSymptomes] = useState(TableauHome);
 
     useEffect(() => {
         axios.get("http://localhost:4242/api/maladies").then((response) => {
@@ -30,6 +31,14 @@ const [dataMaladies, setDataMaladies] = useState([]);
 
     const handleImageClick = (symptome) => {
         setSelectedSymptomes((oldSymptomes) => [...oldSymptomes, symptome]);
+        
+        setSymptomes((ancienEtat) =>
+        ancienEtat.map((item) =>
+            item.symptomes === symptome
+                ? { ...item, selected: !item.selected }
+                : item
+        )
+    );
     }
 
     const handleCityClick = (city) => {  // Add this function
@@ -67,8 +76,8 @@ const [dataMaladies, setDataMaladies] = useState([]);
           
             <div className="containerH">
                 <div className="divPastillesHome">
-                    {TableauHome.map((item) => (
-                        <div className="divPastillesH" key={item.id} onClick={() => handleImageClick(item.symptomes)}>
+                    {symptomes.map((item) => (
+                        <div className={item.selected ? "divPastillesH symptome-selected"  : "divPastillesH"} key={item.id} onClick={() => handleImageClick(item.symptomes)}>
                             <img className="pastillesH" src={item.imgsrc} alt={item.symptomes}  />
                             <p className="SymptomesNameH">{item.symptomes}</p>
                         </div>
