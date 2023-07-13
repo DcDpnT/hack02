@@ -4,10 +4,10 @@
    background-repeat: no-repeat;
    background-position: center;
    padding:32px;
+   justify-content: center;
 
    border-radius: 20px;
-   margin: 16px;;
-   width:60%;
+   width:70%;
    height: 55vh;
    display:flex;
    flex-direction:row;
@@ -22,9 +22,7 @@
       }
       
       .Medecin{
-      margin:16px;
-      margin-left: 40px;
-      
+      margin:16px;    
       .box1{
          margin:32px 32px 32px 0px;
       }
