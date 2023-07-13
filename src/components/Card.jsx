@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import CardCalendar from "./CardCalendar";
-import "./Card.scss"
+import "../components/Card.scss"
 
 function Card ({medecin}) {
     
