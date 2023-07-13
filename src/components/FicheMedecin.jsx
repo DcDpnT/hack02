@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import TableauImageMedecin from "./TableauImageMedecin";
 import { useLocation } from "react-router-dom";
+import Header1 from "./Header1";
 
   function FicheMedecin() {
 	
@@ -20,15 +21,17 @@ import { useLocation } from "react-router-dom";
 		
 	return (
 	<div className="content" >
-
-		{filteredMedecins ?
-		filteredMedecins.map((medecin, index)=> (	
+		<Header1/>
+		<body>
+			{filteredMedecins ?
+			filteredMedecins.map((medecin, index)=> (	
+				<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
+			))
+			:
+			dataMedecin.map((medecin, index)=> (	
 			<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
-		))
-		:
-		dataMedecin.map((medecin, index)=> (	
-		<Card key={medecin.id} medecin={medecin} image={TableauImageMedecin[index]}/>			
-	))}
+		))}
+		</body>
 
 	</div>
 	
