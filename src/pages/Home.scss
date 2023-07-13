@@ -125,8 +125,8 @@
 }
 
 .SelectionnerButtonH {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -134,12 +134,12 @@
     text-transform: uppercase;
     letter-spacing: 1.3px;
     font-weight: 700;
-    color: #313133;
+    color: #FDEFD5;
     background: rgba(174, 73, 17);
-    background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+    background: linear-gradient(90deg, rgb(197, 97, 43) 0%, rgba(174, 73, 17, 1) 100%);
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+    box-shadow: 12px 12px 24px rgba(174, 73, 17, .64);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -153,8 +153,8 @@
     border-radius: 1000px;
     min-width: calc(300px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid #00FFCB;
-    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+    border: 6px solid rgb(121, 46, 6);
+    box-shadow: 0 0 60px rgba(121, 46, 6, .64);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -179,7 +179,7 @@
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    border: 6px solid #00FFCB;
+    border: 6px solid rgb(121, 46, 6);
     position: absolute;
     z-index: -1;
     top: 50%;
