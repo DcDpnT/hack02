@@ -1,19 +1,16 @@
 // import { useState, useEffect } from "react";
 // import { useParams} from "react";
 // import axios from "axios";
+import CardDetail from "../components/CardDetail";
 import "./MedecinDetails.scss";
 
 function MedecinDetails() {
-    // const { id } = useParams();
-    // const [detail, setDetail] = useState([]);
-
-    // useEffect(() => {
-    //     axios.get(`http://localhost:4242/api/symptomes/${id}`).then((res) => {
-    //         setDetail(res.data);
-    // });})
+  
 
     return (
-      <></>
+      <>
+      <CardDetail/>
+      </>
     )
 }
 export default MedecinDetails
