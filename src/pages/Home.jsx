@@ -87,7 +87,7 @@ const [dataMaladies, setDataMaladies] = useState([]);
                     ))}
                 </div>
                 <div className="divSelectionnerButtonH">     
-                    <button className="SelectionnerButtonH" onClick={handleSelectionClick}>Sélectionner</button>
+                    <button className="SelectionnerButtonH " onClick={handleSelectionClick}>Sélectionner</button>
                 </div> 
                 <div>
                     <p className="PhraseH">Vous êtes à {selectedCity} et vous avez possiblement {possibleMaladies.join(", ")}.</p>
