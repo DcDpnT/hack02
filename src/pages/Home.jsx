@@ -154,7 +154,9 @@ const [dataMaladies, setDataMaladies] = useState([]);
                 </div>
             </div>
         </div>
+    </>
     );
+
 }
 
 export default Home;
